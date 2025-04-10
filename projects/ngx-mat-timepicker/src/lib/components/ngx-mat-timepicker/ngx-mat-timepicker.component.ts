@@ -163,6 +163,13 @@ export class NgxMatTimepickerComponent implements NgxMatTimepickerRef {
             overlayX: "center",
             overlayY: "bottom",
             offsetY: 0
+        },
+        {
+            originX: "center",
+            originY: "center",
+            overlayX: "center",
+            overlayY: "center",
+            offsetY: 0
         }
     ];
     @Input() preventOverlayClick: boolean;
